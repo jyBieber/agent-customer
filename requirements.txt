@@ -1,0 +1,27 @@
+# LangChain 核心依赖
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langgraph>=0.2.0
+
+# 向量数据库和 Embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# API 和 Web 框架
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+websocket-client>=1.6.0
+
+# 数据验证和环境配置
+pydantic>=2.4.0
+python-dotenv>=1.0.0
+
+# 数据库
+aiosqlite>=0.19.0
+
+# HTTP 请求
+httpx>=0.25.0
+
+# 其他工具
+numpy>=1.24.0
